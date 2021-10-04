@@ -10,7 +10,7 @@ items:
     spec:
       project: default
       source:
-        repoURL: https://github.com/alexmt/argo-combined-demo.git
+        repoURL: https://github.com/novoselskiy/argo-combined-demo-1.git
         path: infrastructure/argo-events
       destination: &dest
         server: "https://kubernetes.default.svc"
@@ -29,7 +29,7 @@ items:
     spec:
       project: default
       source:
-        repoURL: https://github.com/alexmt/argo-combined-demo.git
+        repoURL: https://github.com/novoselskiy/argo-combined-demo-1.git
         path: infrastructure/argo-rollouts
       destination: *dest
       syncPolicy: *policy
@@ -43,7 +43,7 @@ items:
     spec:
       project: default
       source:
-        repoURL: https://github.com/alexmt/argo-combined-demo.git
+        repoURL: https://github.com/novoselskiy/argo-combined-demo-1.git
         path: infrastructure/argo-workflow
       destination: *dest
       syncPolicy: *policy
@@ -57,7 +57,7 @@ items:
     spec:
       project: default
       source:
-        repoURL: https://github.com/alexmt/argo-combined-demo.git
+        repoURL: https://github.com/novoselskiy/argo-combined-demo-1.git
         path: infrastructure/minio
       destination: *dest
       syncPolicy: *policy
@@ -71,7 +71,7 @@ items:
     spec:
       project: default
       source:
-        repoURL: https://github.com/alexmt/argo-combined-demo.git
+        repoURL: https://github.com/novoselskiy/argo-combined-demo-1.git
         path: web-service
       destination: *dest
       syncPolicy: *policy
