@@ -4,5 +4,6 @@ metadata:
   name: argo-rollouts-clusterrolebinding
 subjects:
   - kind: ServiceAccount
-    name: argo-rollouts
+    #name: argo-rollouts
+    name: argo-server
     namespace: demo
