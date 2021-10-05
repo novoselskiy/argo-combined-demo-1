@@ -68,7 +68,7 @@ spec:
                           name: demo-minio
                           key: secretkey
                   container:
-                    image: alexmt/facedetect
+                    image: vnovoselskiy/facedetect
                     command: [python]
                     args: ["/app/facedetect", "-o", "/result.jpg", "photo.jpg"]
                   outputs:
